@@ -1,0 +1,146 @@
+body {
+	font-size: 14px;
+	background-color: #a1a1a1;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arbutus Slab', serif;
+}
+
+td {
+  border-style: hidden;
+}
+
+.wrap-all {
+		margin-top: 15px;
+}
+
+.emailaddr {
+  font-weight: bold;
+	font-size: 14px;
+	padding-left: 0px;
+	padding-right: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.scram {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.fullname {
+	font-family: 'Arbutus Slab', serif;
+	margin-bottom: 15px;
+}
+
+.id-main {
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 12px;
+}
+
+.id-address {
+  font-size: 14px;
+	margin-top: 12px;
+	padding-top: 0px;
+	padding-bottom: 6px;
+}
+
+.paper {
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.paper-title {
+	font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.paper-details {
+	display: inline-block;
+}
+
+.aboutme {
+	text-align: inherit;
+	text-justify: inherit;
+}
+
+.tagline {
+  font-size: 18px;
+  font-style: italic;
+  padding-bottom: 12px;
+}
+
+.card {
+	box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.leftcard {
+	border-radius: 7px;
+	margin: 15px;
+}
+
+.rightcard {
+	margin-top: 15px;
+}
+
+.pubscard {
+	border-radius: 7px;
+}
+
+.aboutcard {
+  margin-bottom: 15px;
+  border-radius: 7px;
+}
+
+.idcard {
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.social {
+	padding: 5px;
+	background-color: #ececec;
+	border-top: 1px solid #e0e0e0;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.social-icon {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.img-circle {
+	padding: 10px;
+}
+
+.newslink, .facecardsection {
+	padding: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 5px;
+}
+
+.table-responsive {
+  border-style: hidden;
+}
+
+td p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
