@@ -1,7 +1,7 @@
 body {
-	font-size: 14px;
-	background-color: #a1a1a1;
+	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,16 +13,15 @@ td {
 }
 
 .wrap-all {
-		margin-top: 15px;
+  margin-top: 10px;
 }
 
 .emailaddr {
-  font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
+	font-family: monospace;
 	padding-left: 0px;
 	padding-right: 0px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 10px;
 }
 
 .scram {
@@ -33,6 +32,7 @@ td {
 }
 
 .fullname {
+	margin-top: 8px;
 	font-family: 'Arbutus Slab', serif;
 	margin-bottom: 15px;
 }
@@ -51,12 +51,11 @@ td {
 }
 
 .paper {
-	font-size: 14px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-.paper-title {
+.paper-title, .blog-title, .press-title {
 	font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
@@ -65,23 +64,12 @@ td {
 	display: inline-block;
 }
 
-.aboutme {
-	text-align: inherit;
-	text-justify: inherit;
-}
-
 .tagline {
-  font-size: 18px;
-  font-style: italic;
   padding-bottom: 12px;
 }
 
 .card {
-	box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.19);
-	padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #fff;
+	padding-bottom: 20px;
 }
 
 .card-title {
@@ -89,22 +77,18 @@ td {
   margin-bottom: 10px;
 }
 
-.leftcard {
-	border-radius: 7px;
-	margin: 15px;
-}
 
 .rightcard {
 	margin-top: 15px;
 }
 
-.pubscard {
-	border-radius: 7px;
+.aboutcard, .pubscard {
+	text-align: justify;
+  text-justify: inter-word;
 }
 
-.aboutcard {
-  margin-bottom: 15px;
-  border-radius: 7px;
+.blog {
+  font-size: 18px;
 }
 
 .idcard {
@@ -114,11 +98,8 @@ td {
 }
 
 .social {
+	padding-top: 10px;
 	padding: 5px;
-	background-color: #ececec;
-	border-top: 1px solid #e0e0e0;
-	border-bottom-left-radius: 7px;
-	border-bottom-right-radius: 7px;
 }
 
 .social-icon {
@@ -132,15 +113,22 @@ td {
 
 .newslink, .facecardsection {
 	padding: 5px;
-	border-bottom: 1px solid #e0e0e0;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .table-responsive {
   border-style: hidden;
 }
 
+.blog-place, .news-place {
+	font-style: italic;
+}
+
 td p {
+	font-size: 18px;
+	line-height: 1.5;
   padding-bottom: 0px;
   margin-bottom: 0px;
+	text-align: justify;
+	text-justify: inter-word;
 }
