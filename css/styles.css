@@ -55,7 +55,7 @@ td {
 	padding-right: 0px;
 }
 
-.paper-title, .blog-title, .press-title {
+.paper-title, .blog-title, .press-title, .talk-title {
 	font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
@@ -116,7 +116,7 @@ td {
 }
 
 .blog-place, .news-place {
-	font-style: italic;
+	font-style: inherit;
 }
 
 td p {
