@@ -50,12 +50,15 @@ td {
 	padding-bottom: 6px;
 }
 
+.card-text {
+	padding: 3px;
+}
 .paper {
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
-.paper-title, .blog-title, .press-title, .talk-title {
+.paper-title, .blog-title, .press-title, .talk-title, .blog-link, .press-link {
 	font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
