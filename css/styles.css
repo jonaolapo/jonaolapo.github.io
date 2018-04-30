@@ -8,10 +8,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Arbutus Slab', serif;
 }
 
-td {
-  border-style: hidden;
-}
-
 .wrap-all {
   margin-top: 10px;
 }
@@ -53,6 +49,7 @@ td {
 .card-text {
 	padding: 3px;
 }
+
 .paper {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -61,6 +58,10 @@ td {
 .paper-title, .blog-title, .press-title, .talk-title, .blog-link, .press-link, .paper-link, .service-title {
 	font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+.paper-venue {
+  font-style: italic;
 }
 
 .service-list {
@@ -122,10 +123,6 @@ td {
 
 .img-circle {
 	padding: 10px;
-}
-
-.table-responsive {
-  border-style: hidden;
 }
 
 .blog-place, .news-place {
