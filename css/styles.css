@@ -55,9 +55,21 @@ h1, h2, h3, h4, h5, h6 {
 	padding-right: 0px;
 }
 
-.paper-title, .blog-title, .press-title, .talk-title, .blog-link, .press-link, .paper-link, .service-title {
+.paper-title, .blog-title, .press-title, .talk-title {
 	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
   font-weight: bold;
+}
+
+.service-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.paper-link, .blog-link, .press-link {
+  font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .paper-venue {
@@ -134,6 +146,8 @@ td p {
 	line-height: 1.5;
   padding-bottom: 0px;
   margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
 	/* text-align: justify;
 	text-justify: inter-word; */
 }
