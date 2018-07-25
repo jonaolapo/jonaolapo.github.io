@@ -61,6 +61,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+.paper-title-front {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+  font-weight: bold;
+}
+
+
 .service-title {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
