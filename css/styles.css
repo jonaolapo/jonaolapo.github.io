@@ -83,6 +83,10 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+.person-title {
+  font-style: italic;
+}
+
 .service-list {
 	padding-top: 0px;
 	margin-top: 0px;
